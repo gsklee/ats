@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+
+git flow release start $1
+npm --no-git-tag-version version $1
+git commit -am "Bump version to $1"
+git flow release finish $1
+git push --all origin
+npm publish

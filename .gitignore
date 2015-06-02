@@ -1,5 +1,8 @@
 # http://git-scm.com/docs/gitignore
 
+/*.js
+!/gulpfile.babel.js
+
 node_modules
 *.log
 .tmp

@@ -3,4 +3,6 @@
 *
 !.gitignore
 !LICENSE
-!ats.js
+
+!/*.js
+/gulpfile.babel.js

@@ -1,6 +1,6 @@
 {
   "name": "ats",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "",
   "author": "G. Kay Lee <balancetraveller+github@gmail.com>",
   "scripts": {
@@ -13,8 +13,10 @@
     "url": "https://github.com/gsklee/ats"
   },
   "keywords": [],
+  "peerDependencies": {
+    "babel": "^5.4.7"
+  },
   "dependencies": {
-    "babel": "^5.4.7",
     "bound-native-methods": "^0.1.4"
   },
   "devDependencies": {

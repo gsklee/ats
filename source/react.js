@@ -1,5 +1,3 @@
-import 'babel/polyfill';
-
 import {assign} from 'bound-native-methods';
 
 export default [
